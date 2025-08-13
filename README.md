@@ -1,10 +1,10 @@
 # 🐢 Turtle Coordinate Race Simulator
-*A visually engaging Python-based race simulation leveraging the Turtle Graphics library, where six vibrant racers compete on a 2D coordinate plane and the outcome is driven by randomized, real-time movements.*
+*A visually engaging Python based race simulation leveraging the Turtle Graphics library, where six vibrant racers compete on a 2D coordinate plane and the outcome is driven by randomized, real time movements.*
 
 ---
 
 ## Overview
-The **Turtle Coordinate Race Simulator** is an interactive desktop application built in Python that demonstrates fundamental game logic, coordinate system manipulation, and object-oriented graphics programming.
+The **Turtle Coordinate Race Simulator** is an interactive desktop application built in Python that demonstrates fundamental game logic, coordinate system manipulation, and object oriented graphics programming.
 
 In this simulation, players place a wager on a turtle racer of their choice, each uniquely colored and positioned on a dedicated racing track. The program uses **randomized motion logic** to determine each turtle's progression toward the finish line, ensuring an unpredictable and replayable outcome.
 
@@ -14,13 +14,13 @@ This project exemplifies **event-driven design** combined with **coordinate-base
 
 ## Technologies & Concepts Used
 - **Python 3.13** – Core programming language for implementing the simulation logic.
-- **Turtle Graphics Module** – Provides object-oriented control of graphical entities within a 2D coordinate system.
-- **Random Module** – Generates pseudo-random integer values to vary movement distances per frame.
+- **Turtle Graphics Module** – Provides object oriented control of graphical entities within a 2D coordinate system.
+- **Random Module** – Generates pseudo random integer values to vary movement distances per frame.
 - **2D Coordinate System Manipulation**  
   - Absolute positioning with `.goto(x, y)` for initial placement.  
   - Relative positioning via `.forward()` and `.xcor()` checks.
-- **User Interaction & Input Handling** – Real-time player betting through text prompts.
-- **Event-Driven State Management** – Controlled race start/stop conditions using a Boolean flag (`is_race_on`).
+- **User Interaction & Input Handling** – Real time player betting through text prompts.
+- **Event Driven State Management** – Controlled race start/stop conditions using a Boolean flag (`is_race_on`).
 - **List-Based Object Collection** – Stores and iterates over multiple turtle instances for efficient game loop execution.
 - **Loop Structures for Animation** – Continuous position updates using `while` and `for` loops to simulate motion frames.
 - **Environment Variable Configuration** – Custom `TCL` and `TK` path binding for GUI compatibility on specific OS setups.
