@@ -8,7 +8,7 @@ The **Turtle Coordinate Race Simulator** is an interactive desktop application b
 
 In this simulation, players place a wager on a turtle racer of their choice, each uniquely colored and positioned on a dedicated racing track. The program uses **randomized motion logic** to determine each turtle's progression toward the finish line, ensuring an unpredictable and replayable outcome.
 
-This project exemplifies **event-driven design** combined with **coordinate-based movement algorithms**, providing a playful yet technically instructive example of how graphical simulations are structured in Python.
+This project exemplifies **event driven design** combined with **coordinate based movement algorithms**, providing a playful yet technically instructive example of how graphical simulations are structured in Python.
 
 ---
 
@@ -21,7 +21,7 @@ This project exemplifies **event-driven design** combined with **coordinate-base
   - Relative positioning via `.forward()` and `.xcor()` checks.
 - **User Interaction & Input Handling** – Real time player betting through text prompts.
 - **Event Driven State Management** – Controlled race start/stop conditions using a Boolean flag (`is_race_on`).
-- **List-Based Object Collection** – Stores and iterates over multiple turtle instances for efficient game loop execution.
+- **List Based Object Collection** – Stores and iterates over multiple turtle instances for efficient game loop execution.
 - **Loop Structures for Animation** – Continuous position updates using `while` and `for` loops to simulate motion frames.
 - **Environment Variable Configuration** – Custom `TCL` and `TK` path binding for GUI compatibility on specific OS setups.
 
@@ -130,13 +130,13 @@ You've lost! The yellow turtle is the winner!
 
 ## 🚀 Key Highlights
 
-- **🎯 Player-Centric Interaction** – Engage directly with the simulation by betting on your chosen turtle before the race begins.  
+- **🎯 Player Centric Interaction** – Engage directly with the simulation by betting on your chosen turtle before the race begins.  
 - **🌈 Distinct Visual Design** – Each turtle has a dedicated lane and unique shell color for easy visual tracking.  
 - **⚡ Dynamic Randomized Motion** – Movement distances per frame are randomly generated, ensuring unpredictability.  
-- **📐 True Coordinate-Based Positioning** – Utilizes a precise 2D Cartesian coordinate system for race setup and progression tracking.  
+- **📐 True Coordinate Based Positioning** – Utilizes a precise 2D Cartesian coordinate system for race setup and progression tracking.  
 - **🔁 Infinite Replay Value** – Every race produces a unique outcome thanks to random motion logic.  
 - **🧩 Structured & Readable Logic** – The program is divided into clear setup, execution, and result phases for maintainability.  
-- **💻 Lightweight & Dependency-Free** – Runs natively on Python’s standard library — no external installations required.
+- **💻 Lightweight & Dependency Free** – Runs natively on Python’s standard library. Therefore no external installations required.
 
 ---
 
@@ -144,11 +144,11 @@ You've lost! The yellow turtle is the winner!
 
 This project was **conceptualized and coded** by **Siddha Kadam**, applying learned principles of:
 
-- **Object-Oriented Programming** – For creating and managing multiple autonomous turtle racers.
-- **Event-Driven Control Flow** – For race initiation and dynamic win detection.
+- **Object Oriented Programming** – For creating and managing multiple autonomous turtle racers.
+- **Event Driven Control Flow** – For race initiation and dynamic win detection.
 - **Randomized Algorithmic Logic** – For generating unpredictable race outcomes.
 
 The inspiration and foundational knowledge for this simulation were acquired during the course *"100 Days of Code: The Complete Python Pro Bootcamp"* by **Dr. Angela Yu**.  
-While the idea originated as part of structured learning, the **entire implementation, logic enhancements, and code structuring were executed independently**, ensuring the project reflects personal problem-solving ability and coding style.
+While the idea originated as part of structured learning, the **entire implementation, logic enhancements, and code structuring were executed independently**, ensuring the project reflects personal problem solving ability and coding style.
 
 > This project is both a learning milestone and a showcase of translating programming concepts into an engaging, interactive graphical application.
