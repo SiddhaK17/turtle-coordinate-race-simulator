@@ -124,7 +124,7 @@ You've lost! The yellow turtle is the winner!
 ![Turtle Race Screenshot](sample_output.png)
 
 > Six uniquely colored turtles line up on the virtual track, awaiting the start signal.  
-> As the race begins, each moves forward unpredictably, driven by randomized increments — keeping every finish tense and exciting.
+> As the race begins, each turtle moves forward unpredictably, driven by randomized increments, keeping every finish tense and exciting.
 
 ---
 
