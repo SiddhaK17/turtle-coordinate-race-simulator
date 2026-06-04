@@ -54,7 +54,7 @@ This project exemplifies **event driven design** combined with **coordinate base
 ## 🧱 Project Structure
 
 ```
-turtle-coordinate-race-simulator/
+Turtle-Coordinate-Race-Simulator/
     ├── main.py             # Main program file
     ├── README.md           # Project documentation
     └── sample_output.png   # Screenshot of race simulation
@@ -77,12 +77,12 @@ turtle-coordinate-race-simulator/
 
 2. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/turtle-coordinate-race-simulator.git
+   git clone https://github.com/your-username/Turtle-Coordinate-Race-Simulator.git
    ```
 
 3. **Navigate to the project folder**
    ```bash
-   cd turtle-coordinate-race-simulator
+   cd Turtle-Coordinate-Race-Simulator
    ```
 
 > 💡 **Optional – Windows Only:** If you encounter errors related to `TCL_LIBRARY` or `TK_LIBRARY`, ensure that your Python installation's Tcl paths are correctly set using `os.environ` at the beginning of your script:
