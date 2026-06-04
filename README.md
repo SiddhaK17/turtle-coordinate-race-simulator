@@ -72,7 +72,7 @@ turtle-coordinate-race-simulator/
 
 1. Install the required dependencies (if not already present):
    ```bash
-   pip install turtle
+   Turtle Graphics is included with Python's standard library and does not require separate installation.
    ```
 
 2. **Clone the repository**
@@ -132,9 +132,9 @@ You've lost! The yellow turtle is the winner!
 
 - **🎯 Player Centric Interaction** – Engage directly with the simulation by betting on your chosen turtle before the race begins.  
 - **🌈 Distinct Visual Design** – Each turtle has a dedicated lane and unique shell color for easy visual tracking.  
-- **⚡ Dynamic Randomized Motion** – Movement distances per frame are randomly generated, ensuring unpredictability.  
+- **⚡ Dynamic Randomized Motion** – Every turtle advances by a randomly generated distance during each iteration of the race, ensuring that no two races ever unfold in exactly the same way.  
 - **📐 True Coordinate Based Positioning** – Utilizes a precise 2D Cartesian coordinate system for race setup and progression tracking.  
-- **🔁 Infinite Replay Value** – Every race produces a unique outcome thanks to random motion logic.  
+- **🔁 High Replayability** – Because race outcomes are driven by randomized movement patterns, each simulation remains fresh, unpredictable, and exciting regardless of how many times it is played.
 - **🧩 Structured & Readable Logic** – The program is divided into clear setup, execution, and result phases for maintainability.  
 - **💻 Lightweight & Dependency Free** – Runs natively on Python’s standard library. Therefore no external installations required.
 
